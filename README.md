@@ -2,7 +2,8 @@
 
 made by Springles
 ---
-
+This is just a simple system to prevent ghost pings. I will make a more advanced version of this when we hit 15 stars on this repository.
+---
 ## How to install
 
 1. Make sure you have Node.js installed on your machine. You can download it from [nodejs.org](https://nodejs.org/).
