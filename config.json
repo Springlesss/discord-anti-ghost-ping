@@ -1,0 +1,6 @@
+{
+    "token": "YOUR_BOT_TOKEN",
+    "alertChannelId": "YOUR_ALERT_CHANNEL_ID",
+    "timeout": true,
+    "timeoutMinutes": "10" 
+}
