@@ -8,6 +8,7 @@ client.on('ready', () => {
 
 client.on('messageDelete', message => {
     if (message.mentions.users.size > 0) {
+        if (message.content == `${message.member.id}`) return;
         const embed = new EmbedBuilder()
         .setTitle('**Ghost ping detected!**')
         .setDescription(`Message: \n ${message.content} \n \n The user who ghost pinged: ${message.author}`)
